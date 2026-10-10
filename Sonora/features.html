@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17231d">
+  <meta name="description" content="Take a closer look at Sonora, a desktop music player and downloader being prepared for Windows and Linux.">
+  <title>Explore Sonora — Music, on your terms</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Sonora home"><span class="wordmark-icon" aria-hidden="true"><span></span><span></span><span></span></span>sonora<span class="wordmark-period">.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a class="nav-link" href="index.html">Overview</a>
+      <a class="nav-link is-current" aria-current="page" href="features.html">Features</a>
+      <a class="nav-link" href="index.html#platforms">Downloads</a>
+      <a class="nav-cta" href="index.html#platforms">Get Sonora <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero feature-hero" aria-labelledby="feature-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=2400&q=85" alt="The lights of a live show glowing over a music crowd" fetchpriority="high">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <a class="back-link" href="index.html"><span aria-hidden="true">←</span> BACK TO OVERVIEW</a>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A CLOSER LOOK AT SONORA</p>
+        <h1 id="feature-title">Keep the<br>music close<span class="accent-period">.</span></h1>
+        <p class="hero-description">One considered desktop experience for your library, your listening, and the music you download.</p>
+        <a class="button button-lime" href="#library">Explore the details <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-caption"><span>A PLAYER, WITH ROOM TO BREATHE</span><span>SONORA DESKTOP</span></div>
+    </section>
+
+    <section class="feature-intro section-wrap">
+      <p class="eyebrow eyebrow-dark">THOUGHTFUL BY DESIGN</p>
+      <div><h2>A little less noise<br><span>around your music.</span></h2><p>Sonora brings a music player and downloader into one desktop app. Here’s a closer look at the experience being designed for Windows and Linux.</p></div>
+    </section>
+
+    <section class="feature-details" aria-label="Sonora product details">
+      <article class="feature-detail-row" id="library">
+        <div class="feature-detail-copy"><p class="eyebrow eyebrow-dark">01 / YOUR COLLECTION</p><h2>Everything you listen to,<br><span>in one clear library.</span></h2><p>A calm home for your collection. The Sonora preview groups music into familiar views such as albums, recently added, and playlists, so it’s easier to find the right thing without digging through menus.</p><a class="text-link" href="index.html#player">See the player preview <span aria-hidden="true">↗</span></a></div>
+        <figure class="feature-detail-image detail-image-library"><img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1100&q=85" alt="A personal recording setup with instruments and studio equipment" loading="lazy"><figcaption>YOUR LIBRARY, AT A GLANCE</figcaption></figure>
+      </article>
+      <article class="feature-detail-row feature-detail-reverse" id="downloads">
+        <div class="feature-detail-copy"><p class="eyebrow eyebrow-dark">02 / YOUR DOWNLOADS</p><h2>A downloader,<br><span>alongside your player.</span></h2><p>Listening and downloading belong in the same straightforward desktop experience. Sonora is being made as a player and downloader; supported music sources and download formats have not yet been announced.</p><a class="text-link" href="index.html#faq">Read the download FAQ <span aria-hidden="true">↗</span></a></div>
+        <figure class="feature-detail-image detail-image-download"><img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1100&q=85" alt="A musician performing under warm stage lights" loading="lazy"><figcaption>YOUR MUSIC, YOUR WAY</figcaption></figure>
+      </article>
+      <article class="feature-detail-row" id="player-detail">
+        <div class="feature-detail-copy"><p class="eyebrow eyebrow-dark">03 / YOUR LISTENING</p><h2>Playback stays<br><span>out of the way.</span></h2><p>Artwork, track details, and playback controls have their own clear place in the preview, leaving the rest of your library easy to browse. Familiar details, without a busy screen competing for attention.</p><a class="text-link" href="index.html#player">Return to the player preview <span aria-hidden="true">↗</span></a></div>
+        <figure class="feature-detail-image detail-image-listening"><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1100&q=85" alt="A quiet, open night sky" loading="lazy"><figcaption>SETTLE IN AND LISTEN</figcaption></figure>
+      </article>
+    </section>
+
+    <aside class="preview-disclaimer section-wrap"><span class="preview-disclaimer-mark" aria-hidden="true">i</span><p>This page describes the Sonora product direction. The interface shown on the overview is a concept preview, not a downloadable or working application.</p></aside>
+
+    <section class="feature-platforms"><div class="feature-platforms-inner"><div><p class="eyebrow"><span class="eyebrow-dot"></span> MADE FOR THE DESKTOP</p><h2>Windows or Linux.<br>Your call.</h2><p>Explore the platform pages for system details and the latest installer status.</p></div><div class="feature-platform-links"><a href="windows.html"><span>Windows</span><span aria-hidden="true">↗</span></a><a href="linux.html"><span>Linux</span><span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <footer class="site-footer"><a class="wordmark footer-wordmark" href="index.html"><span class="wordmark-icon" aria-hidden="true"><span></span><span></span><span></span></span>sonora<span class="wordmark-period">.</span></a><span>A desktop player for the music you love.</span><span>WINDOWS &amp; LINUX · 2026</span></footer>
+</body>
+</html>
